@@ -14,7 +14,7 @@
         <div class="news">
             <h3>
                 <?= htmlspecialchars($post['title']); ?>
-                <em>le <?= $post['french_creation_date']; ?></em>
+                <em>le <?= $post['formatted_creation_date']; ?></em>
             </h3>
             <p>
                 <?= nl2br(htmlspecialchars($post['content'])); ?>
